@@ -192,6 +192,7 @@ h6{
     outline: none;
 }
 
+/*Para tablet*/
 @media screen and (max-width: 769px){
     main{
         padding: 1rem;
@@ -224,5 +225,63 @@ h6{
 
     .botones-s2{
         margin-top: 1.5rem;
+    }
+}
+
+/*para celular*/
+@media screen and (max-width: 426px){
+    main{
+        padding-left: 1rem;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .seccion1{
+        margin: 0;
+        padding-bottom: 0.8rem;
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .icon {
+        padding-left: 1rem;
+    }
+
+    .input-text{
+        width: 100%;
+        height: 45vh;
+        padding: 0rem;
+        margin-bottom: 0;
+    }
+
+    .botones{
+        gap: .5rem;
+        padding-left: 1.5rem;
+        display: flex;
+        width: 90vw;
+        align-items:flex-start;
+        justify-content: end;
+    }
+
+    .seccion2{
+        margin-top: -3rem;
+        padding-left: 0;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .seccion2 p{
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .muneco{
+        display: none;
+    }
+    
+
+    .botones-s2{
+        margin-top: 0;
+        padding: 0;
     }
 }
