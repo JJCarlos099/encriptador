@@ -195,7 +195,6 @@ h6{
 /*Para tablet*/
 @media screen and (max-width: 769px){
     main{
-        background-color: yellow;
         padding: 0.1rem;
         width: 99vw;
         height: auto;
@@ -203,26 +202,26 @@ h6{
     }
 
     .seccion1{
-        background-color: paleturquoise;
-        width: 100vw;
-        height: 50vh;
+        width: 99vw;
+        height: 60vh;
     }
 
     .input-text{
-        width: 99%;
-        margin-top: 0;
-        padding: 0;
+        width: 90%;
+        margin-top: .2rem;
+        margin-left: .2rem;
+        padding-left: 2rem;
     }
 
     .botones{
-        margin-top: .4rem;
+        margin-top: .3rem;
         display: flex;
         width: 99vw;
     }
 
     .seccion2{
         padding-left: 1rem;
-        width: 95vw;
+        width: 99vw;
         height: 36vh;
     }
 
