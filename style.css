@@ -193,6 +193,26 @@ h6{
 }
 
 @media screen and (max-width: 769px){
+    main{
+        padding: 1rem;
+        width: 70vw;
+    }
+
+    .seccion1{
+        width: 100vw;
+    }
+
+    .input-text{
+        padding: 0rem;
+    }
+
+    .botones{
+        display: flex;
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+
     .seccion2{
         width: 70vw;
         height: 20vh;
