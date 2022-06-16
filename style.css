@@ -192,3 +192,17 @@ h6{
     outline: none;
 }
 
+@media screen and (max-width: 769px){
+    .seccion2{
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .muneco{
+        display: none;
+    }
+
+    .botones-s2{
+        margin-top: 1.5rem;
+    }
+}
