@@ -195,28 +195,39 @@ h6{
 /*Para tablet*/
 @media screen and (max-width: 769px){
     main{
-        padding: 1rem;
-        width: 70vw;
+        background-color: yellow;
+        padding: 0.1rem;
+        width: 99vw;
+        height: auto;
+        gap: .5rem;
     }
 
     .seccion1{
+        background-color: paleturquoise;
         width: 100vw;
+        height: 50vh;
     }
 
     .input-text{
-        padding: 0rem;
+        width: 99%;
+        margin-top: 0;
+        padding: 0;
     }
 
     .botones{
+        margin-top: .4rem;
         display: flex;
-        width: 90vw;
-        align-items: center;
-        justify-content: center;
+        width: 99vw;
     }
 
     .seccion2{
-        width: 70vw;
-        height: 20vh;
+        padding-left: 1rem;
+        width: 95vw;
+        height: 36vh;
+    }
+
+    .icon {
+        padding-left: 3rem;
     }
 
     .muneco{
@@ -224,7 +235,8 @@ h6{
     }
 
     .botones-s2{
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
     }
 }
 
@@ -268,12 +280,12 @@ h6{
         margin-top: -3rem;
         padding-left: 0;
         width: 100vw;
-        height: 20vh;
     }
 
     .seccion2 p{
         font-size: 0.9rem;
         width: 90%;
+        height: 700px;
     }
 
     .muneco{
