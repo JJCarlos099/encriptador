@@ -7,6 +7,7 @@ const imgVisual = document.querySelector(".img-visual");
 function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value);
     mensaje.value = textoEncriptado;
+    //comentario
 }
 
 function encriptar(stringEncriptar) {
