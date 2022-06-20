@@ -242,15 +242,18 @@ h6{
 /*para celular*/
 @media screen and (max-width: 426px){
     main{
-        padding-left: 1rem;
-        width: 100vw;
+        margin: 0;
+        padding: 0;
+        background-color: yellow;
+        width: 98%;
         height: 100vh;
     }
 
     .seccion1{
+        background-color: yellowgreen;
         margin: 0;
         padding-bottom: 0.8rem;
-        width: 100vw;
+        width: 100%;
         height: 75vh;
     }
 
@@ -267,18 +270,32 @@ h6{
     }
 
     .botones{
-        gap: .5rem;
+        gap: 1rem;
         padding-left: 1.5rem;
         display: flex;
-        width: 90vw;
-        align-items:flex-start;
-        justify-content: end;
+        width: 100vw;
+        align-items:center;
+        justify-content:flex-start;
     }
+
+    .btn-encriptar{
+        width: 3.25rem;
+        height: 1.25rem;
+        font-size: .5rem;
+    }
+    
+    .btn-desencriptar{
+        width: 3.5rem;
+        height: 1.25rem;
+        font-size: .5rem;
+    }
+
+    
 
     .seccion2{
         margin-top: -3rem;
-        padding-left: 0;
-        width: 100vw;
+        padding-left: 1rem;
+        width: 98%;
     }
 
     .seccion2 p{
@@ -287,6 +304,9 @@ h6{
         height: 700px;
     }
 
+    .input-encriptado{
+        width: 100%;
+    }
     .muneco{
         display: none;
     }
