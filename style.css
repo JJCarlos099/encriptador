@@ -251,17 +251,15 @@ h6{
     main{
         margin: 0;
         padding: 0;
-        background-color: yellow;
-        width: 98%;
+        width: 97%;
         height: 100vh;
     }
 
     .seccion1{
-        background-color: yellowgreen;
         margin: 0;
         padding-bottom: 0.8rem;
-        width: 100%;
-        height: 75vh;
+        width: 90vw;
+        height: 40vh;
     }
 
     .icon {
@@ -270,7 +268,7 @@ h6{
 
     .input-text{
         width: 100%;
-        height: 45vh;
+        height: 30vh;
         padding: 0rem;
         margin-top: 0;
         margin-bottom: 0;
@@ -280,7 +278,7 @@ h6{
         gap: 1rem;
         padding-left: 1.5rem;
         display: flex;
-        width: 100vw;
+        width: 80vw;
         align-items:center;
         justify-content:flex-start;
     }
@@ -301,18 +299,20 @@ h6{
 
     .seccion2{
         margin-top: -3rem;
-        padding-left: 1rem;
-        width: 98%;
+        margin-left: .25rem;
+        width: 82vw;
+        height: 30vh;
     }
 
     .seccion2 p{
-        font-size: 0.9rem;
-        width: 90%;
-        height: 700px;
+        font-size: 0.75rem;
+        width: 75%;
+        height: 25vh;
     }
 
     .input-encriptado{
-        width: 100%;
+        width: 70vw;
+        height: 25vh;
     }
     .muneco{
         display: none;
@@ -322,5 +322,17 @@ h6{
     .botones-s2{
         margin-top: 0;
         padding: 0;
+    }
+
+    .btn-encriptar-s2{
+        width: 3.25rem;
+        height: 1.25rem;
+        font-size: .5rem;
+    }
+    
+    .btn-desencriptar-s2{
+        width: 3.5rem;
+        height: 1.25rem;
+        font-size: .5rem;
     }
 }
