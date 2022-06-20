@@ -18,17 +18,17 @@
             <img src="./images/Vector.png" alt="information" class="icon"></i><h6> Solo letras minúsculas y sin acentos</h6>
             <div class="botones">
                 <button type="button"  class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
-                <button type="button" class="btn-desencriptar" >Desencriptar</button>
+                <button type="button" class="btn-desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
             </div>
         </section>
 
         <section class="seccion2">
             <img src="./images/Muneco.png" alt="" class="muneco" id="muneco" >
             <p id="textS2">Ningún mensaje fue encontrado</p>
-            <textarea type="text" class="input-encriptado" ></textarea>
+            <textarea type="text" class="input-encriptado" id="encriptado" ></textarea>
             <div class="botones-s2">
-                <button type="button"  class="btn-encriptar-s2">Copiar</button>
-                <button type="button" class="btn-desencriptar-s2">Limpiar</button>
+                <button type="button"  class="btn-encriptar-s2" onclick="copy()">Copiar</button>
+                <button type="button" class="btn-desencriptar-s2" onclick="limpiar()">Limpiar</button>
             </div>
         </section>
     </main>
