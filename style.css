@@ -59,7 +59,7 @@ h6{
 }
 
 .icon {
-    padding-left: 3rem;
+    padding-left: 1rem;
     display: inline;
     width: 14px;
     margin-right: 0.1rem;
@@ -126,7 +126,10 @@ h6{
     font-family: 'Inter';
     text-align: center;
     background-color: #FFF;
+    color: #343A40;
+    font-size: 0.6rem;
 }
+
 
 
 .panel__muneco-quitar{
@@ -178,14 +181,18 @@ h6{
     background-color: #FFF;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 0.1rem;
-    width: 100%;
+    margin: 0.2rem 0;
+    padding: 0.4rem;
+    width: 85%;
     height: 97%;
     border: none;
     border-style: none;
     overflow: auto;
     resize: none;
     border-radius: 20px;
+    font-size: .8rem;
+    color: #495057;
+    font-weight: 400;
 }
 
 .input-encriptado:focus{

@@ -1,13 +1,16 @@
-const inputTexto = document.querySelector(".input-text");
-const mensaje = document.querySelector(".input-encriptado");
-const imgVisual = document.querySelector(".img-visual");
+let inputTexto = document.querySelector(".input-text");
+let mensaje = document.querySelector(".input-encriptado");
 
 
 
 function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value);
     mensaje.value = textoEncriptado;
+    document.getElementById("muneco").style.display="none";
+    document.getElementById("textS2").style.display="none";
+    document.getElementById("input-text").value = "";
 }
+
 
 function encriptar(stringEncriptar) {
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
@@ -21,3 +24,4 @@ function encriptar(stringEncriptar) {
     return stringEncriptar;
 
 }
+
